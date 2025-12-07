@@ -1,0 +1,156 @@
+/* ==========================================================
+  Styles de base – la carte occupe tout l'écran
+========================================================== */
+html, body { height: 100%; margin: 0; padding: 0; }
+
+
+h1 {
+  text-align: center;
+  margin: 10px auto;
+  padding: 0;
+}
+
+.main {
+    position: relative; /* Important : conteneur de référence */
+    width: 100%;
+    height: 100%;
+}
+
+#map { width: 90%; height: 88%; 
+    position: relative; /* Important pour que la sidebar se positionne par rapport à la carte */}
+
+/* ==========================================================
+Barre latérale – version desktop (à droite)
+========================================================== */
+#sidebar {
+    position: absolute;
+    top: 10px;                  /* 10px du haut de la carte */
+    right: calc(10% + 10px);    /* 10% (marge de la carte) + 10px */    width: 320px;
+    max-width: 80%;
+    min-height: 200px;          /* Hauteur minimale */
+    max-height: calc(88vh - 20px); /* Maximum hauteur de la carte moins marges */
+    height: auto;               /* S'adapte au contenu */
+    background: #fff;
+    box-shadow: -2px 0 5px rgba(0,0,0,.3);
+    overflow-y: auto;
+    transition: opacity .3s ease-in-out, visibility .3s ease-in-out;
+    z-index: 1000;              /* au-dessus de la carte */
+    opacity: 1;
+    visibility: visible;
+    border-radius: 4px;         /* Coins arrondis */
+}
+#sidebar.closed { 
+    opacity: 0;
+    visibility: hidden;
+}
+
+/* ✅ Contenu de la sidebar avec padding pour éviter la superposition */
+#sidebar-content {
+    padding: 40px 10px 10px 10px;  /* 50px en haut pour éviter le bouton */
+    overflow-y: auto;
+}
+
+/* Bouton de fermeture */
+#closeBtn {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: transparent;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    z-index: 5;                /* ✅ Au-dessus du contenu */
+    padding: 5px;
+    line-height: 1;
+}
+
+/* ✅ Style amélioré pour le bouton (optionnel mais recommandé) */
+#closeBtn:hover {
+    background: rgba(0,0,0,0.05);
+    border-radius: 4px;
+}
+
+/* ==========================================================
+Responsive – mobile / tablettes
+========================================================== */
+@media (max-width: 768px) {
+
+    /* La carte garde toute la hauteur, le bouton flotte au-dessus */
+    #map { height: 100vh; }
+
+    /* Bouton flottant – uniquement visible sur petit écran */
+    #openSidebarBtn {
+        display: block;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        width: 48px;
+        height: 48px;
+        background: #0066ff;
+        color: #fff;
+        border-radius: 50%;
+        border: none;
+        font-size: 1.6rem;
+        line-height: 48px;
+        text-align: center;
+        cursor: pointer;
+        z-index: 1100;
+        box-shadow: 0 2px 6px rgba(0,0,0,.3);
+    }
+
+    /* Drawer qui glisse depuis le bas */
+    #sidebar {
+        top: auto;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        width: 100%;
+        max-width: none;
+        height: 70vh;               /* 70% de la hauteur de l'écran */
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+        box-shadow: 0 -2px 8px rgba(0,0,0,.3);
+        transform: translateY(100%); /* cachée par défaut */
+        transition: transform .3s ease-in-out;
+        opacity: 1;
+        visibility: visible;
+    }
+    #sidebar.closed { transform: translateY(100%); }
+    #sidebar:not(.closed) { transform: translateY(0); }
+
+    /* Déplacer le bouton de fermeture en haut-droite du drawer */
+    #closeBtn {
+        top: 10px;
+        right: 10px;
+        left: auto;
+    }
+    
+    /* ✅ Ajuster le padding sur mobile */
+    #sidebar-content {
+        padding: 60px 20px 20px 20px;  /* Plus d'espace en haut sur mobile */
+    }
+    
+    /* ✅ Afficher le bouton toggle des filtres sur mobile */
+    #toggleFilters {
+        display: block !important;
+    }
+}
+
+/* ==========================================================
+Masquer le bouton flottant sur desktop
+========================================================== */
+#openSidebarBtn { display: none; }   /* affiché seulement via la media query ci-dessus */
+
+/* ==========================================================
+Autres styles
+========================================================== */
+
+.copyright {
+  position: relative;
+  width: 90%;
+  font-size: 8pt;
+  margin: 0;
+  padding: 5px;
+  background: rgba(255, 255, 255, 0.9);
+  text-align: left;
+}
