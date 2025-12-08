@@ -1,21 +1,35 @@
 lat,lng,title,description,type
 46.53499353956518, 6.573165210745519,EPS de Chavannes-près-Renens et de St-Sulpice,"En grève reconductible dès le 8 décembre !",lieu
-46.54394361534468, 6.575046539581299,EPS de  Crissier,"En grève le 4 décembre - Fermé toute la journée !",lieu
-46.5322958781098, 6.567973568416081,EPS d'Ecublens,"En grève le 4 décembre ! - Fermé l'après-midi ",lieu
+46.54394361534468, 6.575046539581299,EPS de  Crissier,"En grève reconductible dès le 8 décembre ! | Lundi :3 sites fermés le matin et l'après-midi | Mardi : Tous le sites fermés partiellement le matin et/ou l'après-midi !",lieu
+46.5322958781098, 6.567973568416081,EPS d'Ecublens,"En grève le 9 décembre après-midi!",lieu
 46.55684191154278, 6.634687939581944,EPS du Mont-sur-Lausanne,"En grève reconductible dès le lundi 8 décembre ! | Fermé le 8 après-midi / fermé le 9 au secondaire / fermé après-midi du 9 au primaire",lieu
-46.53102747386684, 6.5860249188339,ES de Renens,"En grève le 4 décembre - Fermé toute la journée !",lieu
-46.38204657235337, 6.22586575178298,ES de Nyon - Marens,"En grève reconductible dès le 8 décembre !",lieu
+46.53102747386684, 6.5860249188339,ES de Renens,"En grève reconductible dès le 8 décembre - Fermé toute la journée !",lieu
+46.38204657235337, 6.22586575178298,ES de Nyon - Marens,"En grève reconductible dès le 8 décembre ! - Fermé le 8, 9 et 10 !",lieu
 46.389424178466115, 6.224675126079991,EP de Nyon Jura et Prangins,"En grève reconductible dès le 8 décembre - Fermé en P1 tous les jours !",lieu
 46.532185793183004, 6.621944454922087,EPS de Lausanne - Bergières,"En grève reconductible dès le 8 décembre ! - Fermé du lundi au mercredi pour le secondaire ! ",lieu
+46.53807263245772, 6.624093553648449, Collège de Bois-Gentil, "En grève reconductible dès le 8 après-midi ! | Fermé le 8 l'après-midi, le 9 et le 10 !", lieu
+46.70456988981195, 6.5742818089750585, EPS Chavornay, "En grève le 9 décembre après-midi !", lieu
+46.73257266789995, 6.531039449449161, EP d'Orbe et environs, "En grève reconductible dès le 9 décembre !", lieu
 46.52278369643984, 6.641871239580305,EPS de Lausanne - Béthusy,"En grève reconductible dès le 8 décembre !",lieu
+46.52031426850368, 6.619504366633367, EPs de Lausanne - Belvédères, "En grève le 9 décembre et fermé !", lieu
 46.51305860674805, 6.62376289725051,EP de Lausanne - Floréal,"En grève reconductible dès le 8 décembre ! - Fermé le 8 toute la journée !",lieu
 46.5411857455945, 6.647020926087181,EPS de Lausanne - Isabelle-de-Montolieu,"En grève reconductible dès le lundi 8 décembre ! | Collège de Grand-Vennes fermé de lundi à mercredi pour les 9-10-11 ! | Fermé en P1 pour les 7-8 du lundi au mercredi",lieu
 46.51037301570484, 6.631842197250383,EPS de Lausanne - L'Elysée,"En grève reconductible dès le lundi 8 décembre - Entièrement fermé de lundi à mercredi !",lieu
+46.53631767271192, 6.660044753144018, EP de Lausanne - Coteau Fleuri, "En grève le 9 décembre et fermé !", lieu
+46.52667925061362, 6.615881295470373, EP de Lausanne - Prélaz, "En grève reconductible dès le 5 décembre !", lieu
+46.53740363400336, 6.630969651288925, EPS de Lausanne - CF Ramuz, "En grève reconductible dès le 8 décembre ! - Fermé de lundi à mercredi !", lieu
+46.51970427021443, 6.640235446123193, EPS de Lausanne - Villamont, "En grève le 9 décembre ! - Fermé l'après-midi !", lieu
+46.58565296696008, 6.608299525500346, EPS Chseaux-sur-Lausanne, "En grève le 9 décembre après-midi", lieu
+46.550841729796645, 6.432141781981608, EPS Apples-Bière, "En grève le 9 décembre ! | 7-11 fermé le 9, 1-6 fermé partiellement", lieu
+46.534712962397, 6.603670424239532,EP de Prilly Romanel-sur-Lausanne et Jouxtens-Mézery,"En grève le 9 décembre après-midi !",lieu
+46.46679476635341, 6.896149354918965,EPS de Blonay - Saint-Légier,"En grève le 9 décembre !",lieu
+46.58159980270433, 6.643936210747802,EPS de Cugy et environs,"En grève le 9 et 10 décembre ! - Fermé les deux jours !",lieu
 46.5210445838081, 6.641462339580235,EP de Lausanne - Mon-Repos,"En grève les 9 et 10 décembre !",lieu
 46.47157142076017, 6.845075639577858,EPS de Corsier-sur-Vevey et environs,"En grève reconductible dès lundi 8 décembre !",lieu
-46.435238722294514, 6.913222654917503,EPS de Montreux-Est,"En grève le 4 décembre",lieu
+46.435238722294514, 6.913222654917503,EPS de Montreux-Est,"En grève reconductible dès le 9 décembre",lieu
 46.57204908222817, 6.824099768418007,EPS d'Oron - Palézieux,"En grève le 9 décembre !",lieu
-46.50947118249321, 6.650263026085686,ES de Pully,"En grève reconductible dès le 8 décembre !",lieu
+46.50947118249321, 6.650263026085686,ES de Pully,"En grève le 9 décembre et fermé ! !",lieu
+46.4223482205904, 6.260213906593241, ES de Gland, "En grève le 9 décembre ! - Fermé toute la journée !", lieu
 46.511292017807314, 6.6212939310651375,Gymnase Auguste Piccard,"En grève reconductible dès le 8 décembre !",lieu
 46.523602092143136, 6.640336739541087,Gymnase de Bugnon,"En grève le 9 décembre - Possibilité de reconduire la grève dès le 9 !",lieu
 46.45038015893617, 6.878176206595458, Gymnase de Burier, "En grève reconductible dès le 8 décembre !", lieu
@@ -33,6 +47,11 @@ lat,lng,title,description,type
 46.531993359651906, 6.627069711027339,Bâtiment Administratif de la Pontaise,"En grève reconductible dès le 8 décembre",lieu
 46.5266050475059, 6.643014225151977,CHUV,"En grève le 9 décembre ! ",lieu
 46.52131435121452, 6.581446925945201, UNIL, "Personnel et étudiant.es en grève reconductible depuis le lundi 8 décembre !",lieu
+46.5242219185517, 6.645326293110662, HESAV, "Personnel et étudiant.exs en grève reconductible dès le 8 décembre", lieu
 46.524917380974834, 6.638039839148172, CPNV - Site de César-Roux, "En grève reconductile dès le 8 décembre ! | 1 période par jour en tout cas", lieu
-46.77369702700442, 6.634864727532476, CPNV - Site Yverdon-les-Bains, "En grève reconductible dès le 8 décembre !", lieu
-46.54128680483616, 6.64954744421074, HETSL, "Mobilisé le 4 décembre !", lieu
+46.77369702700442, 6.634864727532476, CPNV - Site Yverdon-les-Bains, "En grève reconductible dès le 5 décembre !", lieu
+46.54128680483616, 6.64954744421074, HETSL, "MEn grève reconductible dès le 8 décembre !", lieu
+46.52418500877639, 6.64535847962004, HESAV, "En grève reconductible dès le 8 décembre - Reconduite pour le 9 et le 10 ! le 4 décembre", lieu
+46.525749615335215, 6.579320286536606, Archives cantonales vaudoises, "En grève les 8, 9 et 10 décembre ! | Fermé mardi 9 décembre de 13h à 17h et mercredi 10 décembre de 17h à 19h !", lieu
+46.54397521171949, 6.650266700532986, EMS Plein-Soleil, "Mobilisé le 9 décembre !", lieu
+46.53963932822218, 6.646235420093128, EMS Boissonnet, "Mobilisé le 9 décembre ! ", lieu
